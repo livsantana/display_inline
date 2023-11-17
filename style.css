@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    border: 2px solid blue;
+    text-align: center;
+}
+/* Display inline:
+ ==> Width e height não funcionam
+ ==> Comportamento de palavra*/
+div{
+    border: solid 2px violet;
+    display: inline;
+    margin-right: 20px;
+    padding-inline: 10px;
+}
